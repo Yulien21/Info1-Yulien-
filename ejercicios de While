@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+	
+	int nota;
+	
+	printf("ingrese una nota");
+	scanf("%d",&nota);
+	
+	while (nota<0 || nota>10){
+	
+		printf("Nota fuera del rang(1 a 10)ingrese una nota");
+		scanf("%d",&nota);
+	}
+		printf("El numero es: %d",nota);
+       	
+	
+	return 0;
