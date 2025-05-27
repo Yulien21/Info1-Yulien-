@@ -10,42 +10,7 @@ int main(void) {
 	for(i = 0; i < n; i++)
 {	
 	
-	printf ("Ingrese la primer nota");
-	scanf ("%d",&notas);
-	
-	printf ("Ingrese la segunda nota");
-	scanf ("%d",&notas);
-	
-	
-	printf ("Ingrese la tercera nota");
-	scanf ("%d",&notas);
-	
-	
-	printf ("Ingrese la cuarta nota");
-	scanf ("%d",&notas);
-	
-	
-	printf ("Ingrese la quinta nota");
-	scanf ("%d",&notas);
-	
-	
-	printf ("Ingrese la sexta nota");
-	scanf ("%d",&notas);
-	
-	
-	printf ("Ingrese la septima nota");
-	scanf ("%d",&notas);
-	
-	
-	printf ("Ingrese la octava nota");
-	scanf ("%d",&notas);
-	
-	
-	printf ("Ingrese la novena nota");
-	scanf ("%d",&notas);
-	
-	
-	printf ("Ingrese la decima nota");
+	printf ("Ingrese las notas");
 	scanf ("%d",&notas);
 	
 	promedios = promedios+notas;
