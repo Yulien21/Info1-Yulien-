@@ -1,0 +1,59 @@
+#include <stdio.h>
+
+int main(void) {
+	
+	int notas;
+	int i=0;
+	int n=10;
+	float promedios =0; 
+    
+	for(i = 0; i < n; i++)
+{	
+	
+	printf ("Ingrese la primer nota");
+	scanf ("%d",&notas);
+	
+	printf ("Ingrese la segunda nota");
+	scanf ("%d",&notas);
+	
+	
+	printf ("Ingrese la tercera nota");
+	scanf ("%d",&notas);
+	
+	
+	printf ("Ingrese la cuarta nota");
+	scanf ("%d",&notas);
+	
+	
+	printf ("Ingrese la quinta nota");
+	scanf ("%d",&notas);
+	
+	
+	printf ("Ingrese la sexta nota");
+	scanf ("%d",&notas);
+	
+	
+	printf ("Ingrese la septima nota");
+	scanf ("%d",&notas);
+	
+	
+	printf ("Ingrese la octava nota");
+	scanf ("%d",&notas);
+	
+	
+	printf ("Ingrese la novena nota");
+	scanf ("%d",&notas);
+	
+	
+	printf ("Ingrese la decima nota");
+	scanf ("%d",&notas);
+	
+	promedios = promedios+notas;
+}
+	promedios = promedios/n;
+	 
+	printf("El promedio es: %f",promedios);
+	
+	
+	return 0;
+}
